@@ -1,0 +1,12 @@
+client_config_backend: file
+client_config:
+  client_id: 2699652999-iombqnfa7kfc7hbog71lii40ak01d777.googleusercontent.com
+  client_secret: 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
+  redirect_uris: ['http://localhost:8090/']
+  auth_uri: https://accounts.google.com/o/oauth2/auth
+  token_uri: https://accounts.google.com/o/oauth2/token
+
+get_refresh_token: True
+
+oauth_scope:
+  - https://www.googleapis.com/auth/drive
