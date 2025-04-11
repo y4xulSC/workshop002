@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO,
                     datefmt='%Y-%m-%d %H:%M:%S')
 
 def extract_spotify_api(input_csv_path: str = "./data/spotify_dataset.csv",
-                               artist_limit: int = 10000,
+                               artist_limit: int = 100,
                                track_batch_size: int = 50,
                                artist_batch_size: int = 50) -> pd.DataFrame:
 
