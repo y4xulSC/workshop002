@@ -37,7 +37,7 @@ def extract_spotify():
 
 def extract_grammys():
     try:
-        df = extract_grammys_db()
+        df = extract_grammys_db("./data/the_grammy_awards.csv")
         logging.info("Grammy data extraction completed.")
         return df.to_json(orient="records")
     except Exception as e:
